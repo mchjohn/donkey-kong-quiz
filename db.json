@@ -33,7 +33,7 @@
       "colors": {
         "primary": "#0044e7",
         "secondary": "#77cdfc",
-        "mainBg": "#dbffff",
+        "mainBg": "#dbffffce",
         "contrastText": "#fff",
         "wrong": "#ed0105",
         "success": "#039820"

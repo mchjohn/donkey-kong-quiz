@@ -12,11 +12,11 @@ const Widget = styled.div`
   h1, h2, h3 {
     @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
     font-family: 'Potta One', cursive;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-shadow: -2px 0 #ffef22, 0 1px #ffef22, 1px 0 #ffef22, 0 -2px #ffef22;
     color: ${({ theme }) => theme.colors.wrong };
     font-weight: 700;
-    margin: 3px;
+    margin: 0 2px;
   }
   p {
     font-size: 14px;
@@ -29,8 +29,8 @@ Widget.Header = styled.header`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 18px 32px;
-  background: linear-gradient(to right, #5433FF, #20BDFF, #0082c8);;
+  padding: 15px 4px;
+  background: linear-gradient(to right, #5433FF, #20BDFF, #0082c8);
 `
 
 Widget.Content = styled.div`
